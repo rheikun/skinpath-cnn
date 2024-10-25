@@ -124,9 +124,10 @@ if not st.session_state['landing_done']:
     st.title("Selamat Datang di SkinPath 👩‍⚕️")
     st.markdown("""
         ### Fitur Utama:
-        - 🧴 **Deteksi Tipe Kulit**: Unggah foto atau gunakan kamera untuk analisis tipe kulit.
-        - 🔍 **Tujuan Perawatan**: Pilih tujuan perawatan untuk rekomendasi skincare yang spesifik.
-        
+        - 🧴 **Deteksi Tipe Kulit**: Unggah foto atau ambil gambar langsung untuk menganalisis tipe kulit Anda. Aplikasi akan mengidentifikasi apakah kulit Anda kering, berminyak, atau normal.
+        - 🔍 **Saran Produk Perawatan Kulit**: Setelah tipe kulit terdeteksi, aplikasi memberikan saran produk yang sesuai dan informasi tentang bahan-bahan yang sebaiknya dihindari atau digunakan, berdasarkan tujuan perawatan kulit yang dipilih pengguna.
+        - 🧪 **Penjelasan Bahan**: Untuk setiap bahan yang disebutkan dalam rekomendasi, aplikasi menyediakan penjelasan rinci mengenai manfaat dan potensi efek sampingnya.
+
         ### Cara Penggunaan:
         1. **Pilih Metode Input**: Di panel samping, pilih apakah Anda ingin mengambil gambar langsung dengan kamera atau mengunggah foto dari perangkat.
         2. **Unggah atau Ambil Foto**: Pastikan wajah terlihat jelas tanpa bayangan atau gangguan pencahayaan.
