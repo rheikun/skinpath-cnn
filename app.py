@@ -18,7 +18,7 @@ model = models.resnet50(pretrained=False)
 model.fc = nn.Linear(in_features=2048, out_features=3)  # Adjust for skin types
 
 # Memuat bobot model
-state_dict = torch.load("./model/model.pth")
+state_dict = torch.load("./model/model.pth", map_location=torch.device('cpu'))
 del state_dict['fc.weight']
 del state_dict['fc.bias']
 model.load_state_dict(state_dict, strict=False)
